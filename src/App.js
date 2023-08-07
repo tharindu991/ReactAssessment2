@@ -91,8 +91,6 @@ function App() {
   } = useForm();
 
   const onSubmit = (data) => {
-    console.log(data);
-
     HttpServices.post("/saveUser", { ...data }).then((response) => {
       if (response.data.status === 200) {
         alert("Success");
