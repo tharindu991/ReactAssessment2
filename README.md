@@ -14,3 +14,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 I used styledComponents to design the form.
 React Hook Form used to setup validation rules and error handling within input fields.
 Axios network library used to fetch data from apis.
+Created a mock server using postman and integrated frontend
